@@ -1,0 +1,147 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background-image: linear-gradient(to bottom, #4567b7, #6495ed); /* gradient background */
+    background-attachment: fixed;
+  }
+  
+  .home-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  /* Header Styles */
+  
+  header {
+    background-color: #2196F3; /* blue background */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  header p {
+    font-size: 18px;
+    color: #ccc;
+  }
+  
+  /* Navigation Styles */
+  
+  nav {
+    background-color: #2196F3; /* blue background */
+    padding: 10px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  nav a:hover {
+    color: #ccc;
+  }
+  
+  /* Features Styles */
+  
+  .features {
+    padding: 20px;
+  }
+  
+  .features h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #2196F3; /* blue text */
+  }
+  
+  .features ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .features li {
+    margin-bottom: 10px;
+    background-color: #f7f7f7; /* light gray background */
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* add a subtle shadow */
+  }
+  
+  .features li:nth-child(3) {
+    opacity: 0.5; /* make the screen sharing feature a bit hazy */
+    filter: blur(2px); /* add a blur effect */
+  }
+  
+  .features li:nth-child(3)::before {
+    content: "Coming soon...";
+    font-size: 14px;
+    color: #ccc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .features li:nth-child(4) {
+    opacity: 0.5; /* make the screen sharing feature a bit hazy */
+    filter: blur(2px); /* add a blur effect */
+  }
+  
+  .features li:nth-child(4)::before {
+    content: "Coming soon...";
+    font-size: 14px;
+    color: #ccc;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  /* Footer Styles */
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
